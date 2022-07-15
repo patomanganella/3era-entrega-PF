@@ -1,0 +1,259 @@
+.bg-navbar {
+  background-color: #f1e6b6;
+}
+
+body {
+  background-color: #E6A16F;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.bienvenidos {
+  text-align: center;
+  animation-iteration-count: 10, infinite;
+}
+.bienvenidos:hover {
+  color: #f1e6b6;
+}
+
+.pad-section {
+  padding-top: 50px;
+}
+
+.imagenes-galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1;
+  gap: 100px;
+  /* border: solid #FBF7E5 8px; */
+}
+
+.grid-galeria {
+  border: solid 8px #f8f2d9;
+  height: 80%;
+  width: 100%;
+}
+.grid-galeria:hover {
+  transform: scale(1.3);
+}
+
+.grid-texto {
+  text-align: center;
+  animation-iteration-count: 5, infinite;
+}
+
+.trabajamos {
+  margin: 1px;
+  padding: 20px;
+  font-size: large;
+}
+
+.card-vision {
+  position: absolute;
+  top: 20%;
+}
+
+.card-mision {
+  position: absolute;
+  top: 60%;
+}
+
+.slogan-h1 {
+  margin: 5%;
+  animation-duration: 3s;
+}
+
+.grid-container-productos {
+  margin: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 500px);
+  gap: 100px;
+  justify-content: center;
+  text-align: center;
+}
+
+.col_one_third img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+.col_one_third img:hover {
+  transform: scale(1.2);
+}
+
+.grid-ideas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 450px;
+  gap: 50px;
+  padding: 2%;
+}
+.grid-ideas:hover {
+  color: #f8f2d9;
+}
+
+.figure {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.figure:hover {
+  transform: scale(1.3) translate(250px, 50px);
+  transition: all 2s;
+}
+
+.figure-1 {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.figure-1:hover {
+  transform: scale(1.3) translate(1px, 80px);
+  transition: all 2s;
+}
+
+.figure-2 {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.figure-2:hover {
+  transform: scale(1.3) translate(-350px, 50px);
+  transition: all 2s;
+}
+
+.btn-forms {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.btn-forms {
+  background-color: #f8f2d9;
+  position: relative;
+  left: 50%;
+}
+.btn-forms:hover {
+  color: black;
+  font-size: x-large;
+  background-color: #E6A16F;
+}
+
+.te-esperamos {
+  padding: 2%;
+  text-align: center;
+}
+
+.ratio {
+  margin: auto;
+  width: 80%;
+}
+
+.contacto {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+.button {
+  font-size: larger;
+  border-radius: 8px;
+}
+
+.dark {
+  width: 100%;
+  padding: 10px;
+}
+
+.contacto {
+  position: relative;
+  right: 1px;
+  bottom: 5px;
+}
+
+.button {
+  font-size: larger;
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 468px) {
+  .imagenes-galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .card-title, .card-text {
+    color: black;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .grid-ideas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 150px;
+    gap: 50px;
+    padding: 10%;
+  }
+  .grid-ideas:hover {
+    color: black;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .figure {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .figure:hover {
+    transform: scale(1) translate(0px, 0px);
+    transition: none;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .figure-1 {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  .figure-1:hover {
+    transform: scale(1) translate(0px, 0px);
+    transition: none;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .figure-2 {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  .figure-2:hover {
+    transform: scale(1) translate(0px, 0px);
+    transition: none;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .grid-container-productos {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 250px);
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .col_one_third img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
