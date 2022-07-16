@@ -1,5 +1,25 @@
-.bg-navbar {
-  background-color: #f1e6b6;
+.grid-header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 50px;
+  gap: 100px;
+  align-items: center;
+}
+
+.header1 {
+  list-style-type: none;
+  font-size: medium;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+header a:hover {
+  background-color: #E6A16F;
+  color: black;
+  border-radius: 25%;
+  transition: all 0.75s;
 }
 
 body {

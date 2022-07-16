@@ -1,9 +1,33 @@
 
-
-
-.bg-navbar{
-    background-color: map-get($standard,bg-standard );
-}
+.grid-header{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:50px;
+    gap: 100px;
+    align-items: center;
+  
+  }  
+  
+  .header1{
+    list-style-type: none;
+    font-size: medium;
+    
+    
+  }
+  
+  header a{
+    color: black;
+    text-decoration: none;
+  
+    &:hover{
+        background-color:  #E6A16F;
+        color: black;
+        border-radius: 25%;
+        transition: all 0.75s;
+      }
+  }
+  
+ 
 
 body{
     background-color: #E6A16F
@@ -12,4 +36,3 @@ body{
 .nav-item a{ 
     color: black;
 }
-
