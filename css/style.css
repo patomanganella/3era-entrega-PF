@@ -225,9 +225,9 @@ body {
   .grid-ideas {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 150px;
+    grid-template-rows: 200px;
     gap: 50px;
-    padding: 10%;
+    padding: 5%;
   }
   .grid-ideas:hover {
     color: black;
@@ -270,9 +270,9 @@ body {
   .grid-container-productos {
     margin: 5%;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 500px;
     grid-template-rows: repeat(6, 250px);
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     text-align: center;
   }
