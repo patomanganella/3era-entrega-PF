@@ -32,7 +32,7 @@ body {
 
 .bienvenidos {
   text-align: center;
-  animation-iteration-count: 10, infinite;
+  animation-iteration-count: 3, infinite;
 }
 .bienvenidos:hover {
   color: #f1e6b6;
@@ -61,7 +61,9 @@ body {
 
 .grid-texto {
   text-align: center;
-  animation-iteration-count: 5, infinite;
+}
+.grid-texto:hover {
+  color: #f1e6b6;
 }
 
 .trabajamos {

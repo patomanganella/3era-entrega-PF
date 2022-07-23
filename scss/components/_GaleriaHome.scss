@@ -3,7 +3,7 @@
 
 .bienvenidos{
     text-align: center;
-    animation-iteration-count: 10, infinite;
+    animation-iteration-count: 3, infinite;
 
     &:hover{
      color: #f1e6b6;
@@ -36,6 +36,9 @@
 }
 .grid-texto{
   text-align: center;
-  animation-iteration-count: 5, infinite;
-  
+  &:hover{
+    color: #f1e6b6;
+   
+}
+ 
   }
